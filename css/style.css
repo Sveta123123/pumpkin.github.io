@@ -1,2 +1,124 @@
-body {
-    background-color:yellow;}
+.btn {
+    padding: 10px 15px;
+
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(3, 94, 136);
+
+    color: #fff;
+    text-transform: uppercase;
+    
+    transition: all 0.25s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    filter: saturate(170%);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    max-width: 600px;
+    padding: 15px;
+}
+
+.form .row-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form .group-form {
+    border: 2px solid rgb(187, 13, 13);
+    background-color: rgb(251, 252, 245);
+}
+
+.form .group-form__create {
+    margin-bottom: 15px;
+}
+
+.form .group-title {
+    text-transform: uppercase;
+    font-family: "Verdana", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: rgb(112, 74, 250);
+}
+
+.form label {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Tahoma", sans-serif;
+    color: rgb(5, 126, 65);
+}
+
+.form .number-elements {
+    margin-left: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+.form .text-container {
+    display: block;
+    width: 75%;
+    min-height: 150px;
+    border: 1px solid gold;
+}
+
+.form .btn-create {
+    background-color: rgb(60, 165, 214);
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.form .label-size {
+    color: blue;
+    margin-right: 15px;
+}
+
+.form .size-change {
+    color: rgb(167, 6, 216);
+}
+
+.form .size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgb(208, 232, 252);
+    width: 40px;
+    height: 25px;
+    border: 1px solid lightblue;
+    font-weight: bold;
+    color: blue
+}
+
+.form .btn-remove {
+    margin: 10px 0;
+    background-color: rgb(141, 31, 31);
+}
+
+.new-elements {
+    min-height: 25vh;
+    margin-top: 25px;
+
+    background-color: lightgreen;
+}
+
+.new-elements .elem {
+    padding: 10px;
+    /* font-size: 20px; */
+    border: 2px dashed gold;
+}
+
+.new-elements .photo {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
